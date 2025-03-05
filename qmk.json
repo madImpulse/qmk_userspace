@@ -1,6 +1,15 @@
 {
     "userspace_version": "1.1",
     "build_targets": [
-        ["splitkb/elora/rev1", "madkeys"]
+        ["splitkb/elora/rev1", "madkeys"],
+        ["acekeyboard/titan60", "madkeys"],
+        ["dz60", "madkeys"],
+        ["kbdfans/kbdpad/mk2", "madpad"],
+        ["keebio/bdn9/rev1", "madpad"],
+        ["keychron/q1v1/ansi", "madkeys"],
+        ["kradoindustries/promenade", "madkeys"],
+        ["drop/thekey/v2", "madmedia"],
+        ["preonic/rev3_drop", "madkeys"],
+        ["xiudi/xd60/rev3", "madkeys"]
     ]
 }
