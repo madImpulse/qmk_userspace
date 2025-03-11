@@ -1,6 +1,11 @@
-# QMK Userspace
+# madImpulses QMK Userspace
 
 This is a template repository which allows for an external set of QMK keymaps to be defined and compiled. This is useful for users who want to maintain their own keymaps without having to fork the main QMK repository.
+
+This defines madkeys and madpad keymaps for a small collection of keyboards.
+Macros defined in a common header allow to make globally applied changes in a single location.
+
+More description to come...
 
 ## Howto configure your build targets
 
