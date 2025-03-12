@@ -4,6 +4,7 @@
         ["keychron/q1v1/ansi", "madkeys"],
         ["kradoindustries/promenade", "madkeys"],
         ["preonic/rev3_drop", "madkeys"],
-        ["splitkb/elora/rev1", "madkeys"]
+        ["splitkb/elora/rev1", "madkeys"],
+        ["xiudi/xd60/rev3", "madkeys"]
     ]
 }
