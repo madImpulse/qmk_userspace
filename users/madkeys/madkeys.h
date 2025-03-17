@@ -116,7 +116,7 @@
  * --+------+------+------+------+-------  -------+------+------+------+------+------|-
  *   |  !   |   @  |   #  |   $  |   %  |  |  ^   |  &   |  *   |  (   |   )  |  +   |
  * --+------+------+------+------+------|  |------+------+------+------+------+------|-
- *   |  \   |   :  |   ;  |   -  |   [  |  |  ]   |  _   |  ,   |  .   |   /  |
+ *   |  \   |   :  |   ;  |   -  |   [  |  |  ]   |  _   |  <   |  >   |   ?  |
  * --+------+------+------+------+------+  +------+------+------+------+------+--
  */
 
@@ -131,10 +131,10 @@
 #define MADROWNMRAI     KC_RBRC, KC_UNDS
 
 #define MADROWSEMICOLRAI  KC_RPRN
-#define MADROWCOMDOTRAI   KC_COMM,  KC_DOT
+#define MADROWCOMDOTRAI   KC_LT,  KC_GT
 /* full split */
 #define MADROWHJKLSQRAI MADROWHJKLRAI, MADROWSEMICOLRAI, MADQUOTRAI
-#define MADROWNMCDSRAI  MADROWNMRAI, MADROWCOMDOTRAI, KC_SLASH
+#define MADROWNMCDSRAI  MADROWNMRAI, MADROWCOMDOTRAI, KC_QUES
 /* full rows */
 #define MADROWNUMRAI     MADROW12345RAI, MADROW67890RAI
 #define MADROWQRAI       MADROWQWERTRAI, MADROWYUIOPRAI
