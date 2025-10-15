@@ -67,8 +67,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [_ADJUST] = LAYOUT_all(
         XXXXXXX,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_DEL,
-        QK_MAKE, KC_HOME, KC_UP,   KC_END,  KC_PGUP, _______, KC_MPLY, KC_MSTP, RGB_TOG, RGB_MOD, RGB_SPD, RGB_SPI, KC_PSCR, _______,
-        QK_BOOT, KC_LEFT, KC_DOWN, KC_RGHT, KC_PGDN, _______, _______, _______, RGB_HUI, RGB_SAI, RGB_VAI, RGB_M_P, RGB_M_G, QK_BOOT,
+        QK_MAKE, KC_HOME, KC_UP,   KC_END,  KC_PGUP, _______, KC_MPLY, KC_MSTP, RM_TOGG, RM_NEXT, RM_SPDD, RM_SPDU, KC_PSCR, _______,
+        QK_BOOT, KC_LEFT, KC_DOWN, KC_RGHT, KC_PGDN, _______, _______, _______, RM_HUEU, RM_SATU, RM_VALU, RGB_M_P, RGB_M_G, QK_BOOT,
         _______, _______, _______, _______, _______, _______, KC_MPRV, KC_MNXT, _______, KC_MUTE, KC_VOLD, KC_VOLU, KC_BSLS, _______,
         _______, _______, _______, _______, _______, _______,     _______,      _______, _______, _______, _______, _______, QK_BOOT
     )
