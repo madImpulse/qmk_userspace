@@ -42,8 +42,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [_MADSET] = LAYOUT_wrapper(
         XXXXXXX, RGB_MODE_PLAIN, RGB_MODE_BREATHE, RGB_MODE_RAINBOW, RGB_MODE_SWIRL, RGB_MODE_SNAKE, RGB_MODE_KNIGHT, RGB_MODE_XMAS, RGB_MODE_GRADIENT, RGB_MODE_RGBTEST, _______, _______, _______, QK_BOOTLOADER, _______,
-        QK_MAKE, RM_TOGG, RM_NEXT, RM_HUEU, RM_SATU, RM_VALU, RM_SPDU, _______, _______, _______, _______, _______, _______, QK_BOOT,
-        QK_BOOT, _______, RM_PREV, RM_HUED, RM_SATD, RM_VALD, RM_SPDD, _______, _______, _______, _______, _______, _______, _______,
+        QK_MAKE, UG_TOGG, UG_NEXT, UG_HUEU, UG_SATU, UG_VALU, UG_SPDU, _______, _______, _______, _______, _______, _______, QK_BOOT,
+        QK_BOOT, _______, UG_PREV, UG_HUED, UG_SATD, UG_VALD, UG_SPDD, _______, _______, _______, _______, _______, _______, _______,
         _______, _______, _______, _______, _______, BL_DOWN, BL_TOGG, BL_UP,   BL_STEP, _______, _______, _______, _______, _______, _______,
         _______, _______, _______,                   _______, _______, _______,          _______, _______, _______, _______, _______
     )
