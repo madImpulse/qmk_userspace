@@ -1,8 +1,11 @@
 /* common settings */
 
-/* #define PERMISSIVE_HOLD */
-#define HOLD_ON_OTHER_KEY_PRESS
-#define TAPPING_TERM 180
+/* see also https://docs.qmk.fm/tap_hold */
+#define PERMISSIVE_HOLD
+/* #define HOLD_ON_OTHER_KEY_PRESS */
+#define TAPPING_TERM 160
+
+#define FLOW_TAP_TERM 120
 
 #define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
 
