@@ -5,6 +5,7 @@
         ["kradoindustries/promenade", "madkeys"],
         ["preonic/rev3_drop", "madkeys"],
         ["splitkb/elora/rev1", "madkeys"],
-        ["xiudi/xd60/rev3", "madkeys"]
+        ["xiudi/xd60/rev3", "madkeys"],
+        ["kradoindustries/promenade_rp24s", "madkeys"]
     ]
 }
