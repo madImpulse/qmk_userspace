@@ -46,7 +46,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TAB,  MADROWQWERT,                                       KC_LBRC, KC_RBRC,  MADROWYUIOP,                                      MADDEL,
         MADCTL,  MADROWASDFG,                                       _______, _______,  MADROWHJKL, MADROWSEMICOL,                        MADQUOT,
         KC_LSFT, MADROWZXCVB,                                       KC_PGUP,  KC_PGDN, MADROWNMCDS,                                      KC_RSFT,
-        KC_LCTL, MO(_ADJUST), KC_LGUI, MADLALTENT, LT(_LOWER, KC_SPC), KC_SPC,  KC_SPC,  LT(_RAISE, KC_SPC),  MADRALTENT, KC_LEFT, KC_DOWN, KC_UP, KC_RGHT
+        KC_LCTL, MO(_ADJUST), KC_LGUI, MADLALTENT, LT(_LOWER, KC_SPC), KC_SPC,  KC_SPC,  LT(_RAISE, KC_SPC), KC_RALT, KC_ENT, KC_RGUI, MO(_ADJUST),KC_LCTL
     ),
 
     /* Lower Layer - Function & Navigation
